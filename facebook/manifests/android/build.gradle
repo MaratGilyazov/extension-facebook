@@ -1,10 +1,7 @@
 dependencies {
   // https://developers.facebook.com/docs/android/getting-started/
-  compile 'com.facebook.android:facebook-common:5.9.0'
-  compile 'com.facebook.android:facebook-core:5.9.0'
-  compile 'com.facebook.android:facebook-login:5.9.0'
-  compile 'com.facebook.android:facebook-share:5.9.0'
-  compile 'com.facebook.android:facebook-applinks:5.9.0'
-  compile 'com.facebook.android:facebook-places:5.9.0'
-  compile 'com.facebook.android:facebook-messenger:5.9.0'
+  implementation 'com.facebook.android:facebook-android-sdk:6.3.0'
+
+  // Required by AdMob
+  implementation 'com.google.android.gms:play-services-ads:18.3.0'
 }
